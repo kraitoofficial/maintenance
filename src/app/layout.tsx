@@ -7,6 +7,12 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Kraito",
   description: "Crafted for You",
+  icons: {
+    // Add the favicon URLs here
+    icon: "/favicon/favicon.ico",
+    shortcut: "/favicon/android-192.png",
+    apple: "/favicon/apple.png",
+  },
 };
 
 export default function RootLayout({
